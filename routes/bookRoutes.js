@@ -9,4 +9,10 @@ router.post('/books', authenticateUser, isAdmin, bookController.createBook);
 router.put('/books/:id', authenticateUser, isAdmin, bookController.updateBook);
 router.delete('/books/:id', authenticateUser, isAdmin, bookController.deleteBook);
 
+// Protected route to buy a book
+router.post('/books/:id/buy', authenticateUser, bookController.buyBook);
+
+
+
+
 module.exports = router;

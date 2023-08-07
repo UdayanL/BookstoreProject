@@ -1,0 +1,83 @@
+[{
+  "_id": {
+    "$oid": "64bf6e549b182272485c9c27"
+  },
+  "stock": 49,
+  "title": " one day",
+  "author": " mkg ",
+  "genre": " comedy",
+  "price": 100,
+  "__v": 0,
+  "count": 0
+},
+{
+  "_id": {
+    "$oid": "64bf6e959b182272485c9c29"
+  },
+  "stock": 47,
+  "title": " nothign matter",
+  "author": " udql",
+  "genre": " adventure",
+  "price": 100,
+  "__v": 0,
+  "count": 0
+},
+{
+  "_id": {
+    "$oid": "64bf6ea49b182272485c9c2b"
+  },
+  "stock": 50,
+  "title": " book",
+  "author": " dfrt",
+  "genre": " adventure",
+  "price": 100,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c3699b088e5e77673cb6ce"
+  },
+  "stock": 50,
+  "count": 0,
+  "title": " yo guy",
+  "author": " miachael owens",
+  "genre": " romcom",
+  "price": 100,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c369a4088e5e77673cb6d0"
+  },
+  "stock": 50,
+  "count": 0,
+  "title": " my man",
+  "author": " miachael owens",
+  "genre": " romcom",
+  "price": 100,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c369ab088e5e77673cb6d2"
+  },
+  "stock": 41,
+  "count": 0,
+  "title": " my love ",
+  "author": " miachael owens",
+  "genre": " romcom",
+  "price": 100,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c369bd088e5e77673cb6d4"
+  },
+  "stock": 49,
+  "count": 0,
+  "title": " world on fire ",
+  "author": " miachael owens",
+  "genre": " romance",
+  "price": 100,
+  "__v": 0
+}]

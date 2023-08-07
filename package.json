@@ -9,11 +9,26 @@
   "author": "udayan",
   "license": "ISC",
   "dependencies": {
+    "@sentry/browser": "^7.61.0",
+    "@sentry/cli": "^2.20.3",
+    "@sentry/node": "^7.61.0",
+    "axios": "^1.4.0",
     "bcrypt": "^5.1.0",
     "express": "^4.18.2",
+    "got": "^13.0.0",
+    "joi": "^17.9.2",
     "jsonwebtoken": "^9.0.1",
     "mongodb": "^5.7.0",
     "mongoose": "^5.13.20",
-    "mongoose-paginate-v2": "^1.7.23"
-  }
+    "mongoose-paginate-v2": "^1.7.31",
+    "winston": "^3.10.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UdayanL/BookstoreProject.git"
+  },
+  "bugs": {
+    "url": "https://github.com/UdayanL/BookstoreProject/issues"
+  },
+  "homepage": "https://github.com/UdayanL/BookstoreProject#readme"
 }

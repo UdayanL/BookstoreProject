@@ -4,6 +4,7 @@ const connectDB = require('./config/database')
 const bookRoutes = require('./routes/bookRoutes');
 const authRoutes = require('./routes/authRoutes');
 
+
 const app = express();
 
 // Connect to MongoDB
@@ -19,6 +20,7 @@ app.use(bodyParser.json());
 app.use('/auth', authRoutes);
 app.use('/api', bookRoutes);
 
+
 // Error handling middleware
 
 app.use((err, req, res, next) => {
@@ -33,6 +35,10 @@ app.use((req, res) => {
 });
 
 // Starting the server
+
+// Serve static files from the "public" folder
+app.use(express.static('public'));
+
 
 const port = process.env.PORT || 3000;
 app.listen(port, () => {
